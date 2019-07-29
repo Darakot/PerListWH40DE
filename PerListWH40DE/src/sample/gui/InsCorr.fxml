@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="273.0" prefWidth="500.0" type="javafx.scene.layout.VBox" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <Pane layoutX="14.0" layoutY="674.0" prefHeight="270.0" prefWidth="500.0">
+        <children>
+            <VBox prefHeight="265.0" prefWidth="220.0">
+                <children>
+                    <Label prefWidth="120.0" text="Insanity(Is)">
+                        <font>
+                            <Font size="24.0" />
+                        </font>
+                        <VBox.margin>
+                            <Insets left="50.0" />
+                        </VBox.margin>
+                    </Label>
+                    <TextField prefHeight="77.0" prefWidth="92.0" promptText="25" text="01">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                        <VBox.margin>
+                            <Insets left="70.0" right="70.0" />
+                        </VBox.margin>
+                    </TextField>
+                    <Label layoutX="60.0" layoutY="10.0" prefHeight="35.0" prefWidth="190.0" text="Mental Disorders">
+                        <font>
+                            <Font size="24.0" />
+                        </font>
+                        <VBox.margin>
+                            <Insets left="15.0" />
+                        </VBox.margin>
+                    </Label>
+                    <TextField>
+                        <VBox.margin>
+                            <Insets top="5.0" />
+                        </VBox.margin>
+                    </TextField>
+                    <TextField layoutX="10.0" layoutY="157.0">
+                        <VBox.margin>
+                            <Insets top="5.0" />
+                        </VBox.margin>
+                    </TextField>
+                    <TextField layoutX="10.0" layoutY="182.0">
+                        <VBox.margin>
+                            <Insets top="5.0" />
+                        </VBox.margin>
+                    </TextField>
+                    <TextField layoutX="10.0" layoutY="207.0">
+                        <VBox.margin>
+                            <Insets top="5.0" />
+                        </VBox.margin>
+                    </TextField>
+                </children>
+            </VBox>
+            <VBox layoutX="280.0" prefHeight="265.0" prefWidth="220.0">
+                <children>
+                    <Label prefWidth="160.0" text="Corruption(C)">
+                        <font>
+                            <Font size="24.0" />
+                        </font>
+                        <VBox.margin>
+                            <Insets left="30.0" />
+                        </VBox.margin>
+                    </Label>
+                    <TextField prefHeight="77.0" prefWidth="92.0" promptText="25" text="01">
+                        <font>
+                            <Font size="36.0" />
+                        </font>
+                        <VBox.margin>
+                            <Insets left="70.0" right="70.0" />
+                        </VBox.margin>
+                    </TextField>
+                    <Label layoutX="60.0" layoutY="10.0" prefHeight="35.0" prefWidth="140.0" text="Malignances">
+                        <font>
+                            <Font size="24.0" />
+                        </font>
+                        <VBox.margin>
+                            <Insets left="40.0" />
+                        </VBox.margin>
+                    </Label>
+                    <TextField />
+                    <Label layoutX="50.0" layoutY="122.0" prefHeight="35.0" prefWidth="110.0" text="Mutations">
+                        <font>
+                            <Font size="24.0" />
+                        </font>
+                        <VBox.margin>
+                            <Insets left="55.0" />
+                        </VBox.margin>
+                    </Label>
+                    <TextField layoutX="10.0" layoutY="157.0">
+                        <VBox.margin>
+                            <Insets top="5.0" />
+                        </VBox.margin>
+                    </TextField>
+                    <TextField layoutX="10.0" layoutY="222.0">
+                        <VBox.margin>
+                            <Insets top="5.0" />
+                        </VBox.margin>
+                    </TextField>
+                </children>
+            </VBox>
+        </children>
+    </Pane>
+</fx:root>

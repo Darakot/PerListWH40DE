@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root type="javafx.scene.layout.VBox" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+    <Pane layoutX="512.0" layoutY="14.0" prefHeight="563.0" prefWidth="480.0">
+        <children>
+            <Label layoutX="212.0" layoutY="14.0" text="Skills">
+                <font>
+                    <Font size="24.0" />
+                </font>
+            </Label>
+            <HBox layoutX="14.0" layoutY="49.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="acrobatics" prefHeight="20.0" prefWidth="130.0" text="Acrobatics(Ag)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="acrobatics0" mnemonicParsing="false" />
+                    <CheckBox fx:id="acrobatics10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="acrobatics20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="acrobatics30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="69.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="athletics" prefHeight="20.0" prefWidth="130.0" text="Athletics(S)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="athletics0" mnemonicParsing="false" />
+                    <CheckBox fx:id="athletics10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="athletics20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="athletics30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="89.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="awareness" prefHeight="20.0" prefWidth="130.0" text="Awareness(Per)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="awareness0" mnemonicParsing="false" />
+                    <CheckBox fx:id="awareness10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="awareness20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="awareness30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="109.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="charm" prefHeight="20.0" prefWidth="130.0" text="Charm(Fel)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="charm0" mnemonicParsing="false" />
+                    <CheckBox fx:id="charm10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="charm20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="charm30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="129.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="command" prefHeight="20.0" prefWidth="130.0" text="Command(Fel)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="command0" mnemonicParsing="false" />
+                    <CheckBox fx:id="command10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="command20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="command30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="149.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="commerce" prefHeight="20.0" prefWidth="130.0" text="Commerce(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="commerce0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commerce10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commerce20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commerce30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="169.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="commonLore" prefHeight="20.0" prefWidth="130.0" text="Common Lore(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="189.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="commonLoreA" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="commonLoreA0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreA10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreA20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreA30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="209.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="commonLoreB" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="commonLoreB0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreB10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreB20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreB30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="230.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="commonLoreC" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="commonLoreC0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreC10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreC20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreC30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="250.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="commonLoreD" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="commonLoreD0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreD10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreD20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="commonLoreD30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="270.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="deceive" prefHeight="20.0" prefWidth="130.0" text="Deceive(Fel)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="deceive0" mnemonicParsing="false" />
+                    <CheckBox fx:id="deceive10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="deceive20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="deceive30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="290.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="dodge" prefHeight="20.0" prefWidth="130.0" text="Dodge(Ag)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="dodge0" mnemonicParsing="false" />
+                    <CheckBox fx:id="dodge10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="dodge20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="dodge30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="310.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="forbiddenLore" prefHeight="20.0" prefWidth="130.0" text="Forbidden Lore(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="330.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="forbiddenLoreA" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="forbiddenLoreA0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreA10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreA20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreA30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="350.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="forbiddenLoreB" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="forbiddenLoreB0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreB10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreB20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreB30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="370.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="forbiddenLoreC" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="forbiddenLoreC0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreC10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreC20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreC30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="390.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="forbiddenLoreD" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="forbiddenLoreD0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreD10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreD20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="forbiddenLoreD30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="410.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="inquiry" prefHeight="20.0" prefWidth="130.0" text="Inquiry(Fel)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="inquiry0" mnemonicParsing="false" />
+                    <CheckBox fx:id="inquiry10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="inquiry20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="inquiry30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="430.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="interrogation" prefHeight="20.0" prefWidth="130.0" text="Interrogation(WP)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="interrogation0" mnemonicParsing="false" />
+                    <CheckBox fx:id="interrogation10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="interrogation20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="interrogation30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="450.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="intimidate" prefHeight="20.0" prefWidth="130.0" text="Intimidate(S)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="intimidate0" mnemonicParsing="false" />
+                    <CheckBox fx:id="intimidate10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="intimidate20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="intimidate30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="470.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="linguistics" prefHeight="20.0" prefWidth="130.0" text="Linguistics(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="490.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="linguisticsA" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="linguisticsA0" mnemonicParsing="false" />
+                    <CheckBox fx:id="linguisticsA10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="linguisticsA20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="linguisticsA30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="510.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="linguisticsB" prefHeight="20.0" prefWidth="130.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="linguisticsB0" mnemonicParsing="false" />
+                    <CheckBox fx:id="linguisticsB10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="linguisticsB20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="linguisticsB30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="14.0" layoutY="530.0" prefHeight="20.0" prefWidth="200.0">
+                <children>
+                    <Label fx:id="logic" prefHeight="20.0" prefWidth="130.0" text="Logic(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox fx:id="logic0" mnemonicParsing="false" />
+                    <CheckBox fx:id="logic10" layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="logic20" layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox fx:id="logic30" layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="49.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Medicae(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="69.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Navigate(Surface)(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="89.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Navigate(Stellar)(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="109.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Navigate(Warp)(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="129.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Operate(Aeronautica)(Ag)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="149.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Operate(Surface)(Ag)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="169.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Operate(Voidship)(Ag)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="189.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Parry(WS)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="209.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Psyniscience(Per)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="230.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Scholastic Lore(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="250.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="270.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="290.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="310.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="330.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="350.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="ScrutinyPer)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="370.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Security(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="390.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Sleight of hand(Ag)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="410.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Stealth(Ag)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="430.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Survival(Per)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="450.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Tech-Use(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="470.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0" text="Trade(Int)">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="490.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="510.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+            <HBox layoutX="231.0" layoutY="530.0" prefHeight="20.0" prefWidth="240.0">
+                <children>
+                    <Label prefHeight="20.0" prefWidth="170.0">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <CheckBox mnemonicParsing="false" />
+                    <CheckBox layoutX="38.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="54.0" layoutY="10.0" mnemonicParsing="false" />
+                    <CheckBox layoutX="70.0" layoutY="10.0" mnemonicParsing="false" />
+                </children>
+            </HBox>
+        </children>
+    </Pane>
+</fx:root>
