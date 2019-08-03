@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 
 
 public class SkillsCtrl extends VBox {
@@ -366,6 +367,7 @@ public class SkillsCtrl extends VBox {
 
     @FXML
     void initialize() {
+        logic.setTextFill(Color.GREEN);
         logic0.setSelected(true);
         logic10.setSelected(true);
     }

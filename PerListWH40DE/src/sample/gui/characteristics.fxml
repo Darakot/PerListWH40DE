@@ -7,6 +7,8 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
@@ -18,37 +20,37 @@
                     <Font size="24.0" />
                 </font>
             </Label>
-            <Pane layoutX="14.0" layoutY="49.0" prefHeight="92.0" prefWidth="221.0">
+            <Pane fx:id="temp" layoutX="14.0" layoutY="49.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Weapon&#10;Skill&#10;(WS)">
+                    <TextArea fx:id="ws" editable="false" prefHeight="91.0" prefWidth="121.0" text="Weapon&#10;Skill&#10;(WS)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="wsParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
                     </TextField>
                     <VBox layoutX="205.0" prefHeight="52.0" prefWidth="14.0">
                         <children>
-                            <Circle fill="#1effff" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
-                            <Circle fill="#1effff" layoutX="15.0" layoutY="15.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
-                            <Circle fill="#1effff" layoutX="15.0" layoutY="25.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
-                            <Circle fill="#1effff" layoutX="15.0" layoutY="35.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
-                            <Circle fill="#1effff" layoutX="15.0" layoutY="45.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                            <Circle fx:id="wsUsed1" fill="#1effff" onMouseClicked="#addWs" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                            <Circle fx:id="wsUsed2" fill="#1effff" layoutX="15.0" layoutY="15.0" onMouseClicked="#addWs" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                            <Circle fx:id="wsUsed3" fill="#1effff" layoutX="15.0" layoutY="25.0" onMouseClicked="#addWs" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                            <Circle fx:id="wsUsed4" fill="#1effff" layoutX="15.0" layoutY="35.0" onMouseClicked="#addWs" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                            <Circle fx:id="wsUsed5" fill="#1effff" layoutX="15.0" layoutY="45.0" onMouseClicked="#addWs" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
                         </children>
                     </VBox>
                 </children>
             </Pane>
             <Pane layoutX="14.0" layoutY="141.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Ballistic&#10;Skill&#10;(BS)">
+                    <TextArea fx:id="bs" editable="false" prefHeight="91.0" prefWidth="121.0" text="Ballistic&#10;Skill&#10;(BS)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="bsParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -66,12 +68,12 @@
             </Pane>
             <Pane layoutX="14.0" layoutY="233.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Strength&#10;(S)">
+                    <TextArea fx:id="str" editable="false" prefHeight="91.0" prefWidth="121.0" text="Strength&#10;(S)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="strParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -89,12 +91,12 @@
             </Pane>
             <Pane layoutX="14.0" layoutY="325.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Toughness&#10;(T)">
+                    <TextArea fx:id="tgh" editable="false" prefHeight="91.0" prefWidth="121.0" text="Toughness&#10;(T)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="tghParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -112,12 +114,12 @@
             </Pane>
             <Pane layoutX="14.0" layoutY="417.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Agility&#10;(Ag)">
+                    <TextArea fx:id="ag" editable="false" prefHeight="91.0" prefWidth="121.0" text="Agility&#10;(Ag)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="agParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -128,19 +130,27 @@
                             <Circle fill="#1effff" layoutX="15.0" layoutY="15.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
                             <Circle fill="#1effff" layoutX="15.0" layoutY="25.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
                             <Circle fill="#1effff" layoutX="15.0" layoutY="35.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
-                            <Circle fill="#1effff" layoutX="15.0" layoutY="45.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+                            <Circle fill="#1effff" layoutX="15.0" layoutY="45.0" radius="5.0" strokeType="INSIDE">
+                        <stroke>
+                           <LinearGradient endX="1.0" endY="1.0">
+                              <stops>
+                                 <Stop color="BLACK" />
+                                 <Stop color="WHITE" offset="1.0" />
+                              </stops>
+                           </LinearGradient>
+                        </stroke></Circle>
                         </children>
                     </VBox>
                 </children>
             </Pane>
             <Pane layoutX="235.0" layoutY="49.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Intelligence&#10;(I)">
+                    <TextArea fx:id="intl" editable="false" prefHeight="91.0" prefWidth="121.0" text="Intelligence&#10;(I)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="intlParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -158,12 +168,12 @@
             </Pane>
             <Pane layoutX="235.0" layoutY="141.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Perception&#10;(Per)">
+                    <TextArea fx:id="per" editable="false" prefHeight="91.0" prefWidth="121.0" text="Perception&#10;(Per)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="perParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -181,12 +191,12 @@
             </Pane>
             <Pane layoutX="235.0" layoutY="233.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Willpower&#10;(WP)">
+                    <TextArea fx:id="wp" editable="false" prefHeight="91.0" prefWidth="121.0" text="Willpower&#10;(WP)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="wpParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -204,12 +214,12 @@
             </Pane>
             <Pane layoutX="235.0" layoutY="325.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Fellowship&#10;(Fel)">
+                    <TextArea fx:id="fel" editable="false" prefHeight="91.0" prefWidth="121.0" text="Fellowship&#10;(Fel)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="felParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -227,12 +237,12 @@
             </Pane>
             <Pane layoutX="235.0" layoutY="417.0" prefHeight="92.0" prefWidth="221.0">
                 <children>
-                    <TextArea prefHeight="91.0" prefWidth="121.0" text="Influence&#10;(Ifl)">
+                    <TextArea fx:id="ifl" editable="false" prefHeight="91.0" prefWidth="121.0" text="Influence&#10;(Ifl)">
                         <font>
                             <Font size="16.0" />
                         </font>
                     </TextArea>
-                    <TextField layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
+                    <TextField fx:id="iflParam" layoutX="121.0" prefHeight="91.0" prefWidth="84.0" promptText="25" text="25">
                         <font>
                             <Font size="36.0" />
                         </font>
@@ -259,7 +269,7 @@
                                       <Insets bottom="5.0" left="5.0" top="5.0" />
                                   </HBox.margin>
                               </Label>
-                              <TextField prefHeight="40.0" prefWidth="84.0" promptText="25" text="1150">
+                              <TextField fx:id="expToSpend" editable="false" prefHeight="40.0" prefWidth="84.0" promptText="25" text="1150">
                                   <font>
                                       <Font size="16.0" />
                                   </font>
@@ -276,7 +286,7 @@
                                       <Insets bottom="5.0" left="5.0" top="5.0" />
                                   </HBox.margin>
                               </Label>
-                              <TextField prefHeight="40.0" prefWidth="84.0" promptText="25" text="5000">
+                              <TextField fx:id="totalExp" editable="false" prefHeight="40.0" prefWidth="84.0" promptText="25" text="5000">
                                   <font>
                                       <Font size="16.0" />
                                   </font>
@@ -305,7 +315,7 @@
                                       <Insets bottom="5.0" left="5.0" top="5.0" />
                                   </HBox.margin>
                               </Label>
-                              <TextField prefHeight="40.0" prefWidth="84.0" promptText="25" text="3">
+                              <TextField fx:id="thFp" editable="false" prefHeight="40.0" prefWidth="84.0" promptText="25" text="3">
                                   <font>
                                       <Font size="16.0" />
                                   </font>
@@ -322,7 +332,7 @@
                                       <Insets bottom="5.0" left="5.0" top="5.0" />
                                   </HBox.margin>
                               </Label>
-                              <TextField prefHeight="40.0" prefWidth="84.0" promptText="25" text="0">
+                              <TextField fx:id="curFp" prefHeight="40.0" prefWidth="84.0" promptText="25" text="0">
                                   <font>
                                       <Font size="16.0" />
                                   </font>
