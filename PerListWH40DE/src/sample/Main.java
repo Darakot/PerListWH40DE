@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 import sample.equip.Armor;
+import sample.role.HomeWorld;
 
 public class Main extends Application {
 
@@ -25,18 +26,6 @@ public class Main extends Application {
         root.getChildren().add(skills);
         root.getChildren().add(insCorr);
         root.getChildren().add(talAndTr);
-
-        Armor ar1 = new Armor("Mesh Vest");
-        System.out.println(ar1.getNameArm());
-        System.out.println(ar1.getLocCovered());
-        System.out.println(ar1.getAp());
-        System.out.println(ar1.getMaxAg());
-
-//        SqlClient.connect();
-//        String armor = SqlClient.getThing("Mesh Vest");;
-//        System.out.println(armor);
-//        SqlClient.disconnect();
-
 
         primaryStage.setTitle("Start");
         primaryStage.setScene(new Scene(root, 1000, 950));

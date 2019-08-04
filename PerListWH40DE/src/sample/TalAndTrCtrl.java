@@ -8,7 +8,7 @@ import java.io.IOException;
 public class TalAndTrCtrl extends VBox {
     public TalAndTrCtrl() {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(
-                "gui/TalAndTr.fxml"));
+                "gui/talAndTr.fxml"));
         fxmlLoader.setRoot(this);
         fxmlLoader.setController(this);
 

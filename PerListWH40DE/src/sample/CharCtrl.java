@@ -140,21 +140,6 @@ public class CharCtrl extends VBox {
 
     @FXML
     void initialize() {
-
-        MeleeWeapons mW = new MeleeWeapons("Chainsword");
-        System.out.println(mW.getNameAm());
-        System.out.println(mW.getClassWeapons());
-        System.out.println(mW.getRange());
-        System.out.println(mW.getDamage());
-
-        System.out.println("");
-
-        RangedWeapons rW = new RangedWeapons("Boltgun");
-        System.out.println(rW.getNameAm());
-        System.out.println(rW.getClassWeapons());
-        System.out.println(rW.getRange());
-        System.out.println(rW.getDamage());
-
         wsParam.setText("39");
         ws.setStyle("-fx-control-inner-background: #1effb6;");
 

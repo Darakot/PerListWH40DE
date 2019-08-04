@@ -1,10 +1,12 @@
 package sample.equip;
 
+import sample.SqlClient;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class RangedWeapons {
-    private Map<String,String> mWeaponsSpecifications = new HashMap<>();
+    private Map<String,String> rWeaponsSpecifications = new HashMap<>();
     private String type = "rangedWeapons";
     String nameAm;
     String classWeapons;

@@ -1,4 +1,4 @@
-package sample.equip;
+package sample;
 import java.sql.*;
 
 
@@ -43,7 +43,7 @@ import java.sql.*;
         }
 
        public synchronized static String[] getAttributes (String name, String type){
-            String request = "SELECT * FROM " + type + " WHERE nameAm='" + name + "'";
+            String request = "SELECT * FROM " + type + " WHERE name='" + name + "'";
             try (ResultSet set = statement.executeQuery(request)) {
                 if (set.next()) {
                     ResultSetMetaData rsmd = set.getMetaData();

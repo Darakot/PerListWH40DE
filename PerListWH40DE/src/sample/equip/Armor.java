@@ -1,5 +1,7 @@
 package sample.equip;
 
+import sample.SqlClient;
+
 import java.util.HashMap;
 import java.util.Map;
 
